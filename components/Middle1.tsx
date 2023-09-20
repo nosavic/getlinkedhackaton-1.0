@@ -3,11 +3,11 @@ import Image from "next/image";
 import PLF from "../assets/plf.png";
 import MWSG from "../assets/mwsg.png";
 import GLOW from "../assets/glow.png";
-import Line from "../tools/line";
+import Line from "../tools/Line";
 
 function Middle() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <div className="absolute top-[-100px] left-[-300px] flare mh">
         <Image
           width={1086}
@@ -17,11 +17,11 @@ function Middle() {
         />
       </div>
 
-      <div className="flex justify-end mt-[50px] mr-[20px] font-extrabold text-3xl italic">
+      <div className="flex justify-end text-right mt-[50px] mr-[20px] font-extrabold text-3xl italic">
         Igniting a Revolution in HR Innovation
       </div>
-      <div className="flex flex-wrap justify-between relative">
-        <div className="mx-[40px] mt-[340px]">
+      <div className="flex flex-wrap justify-evenly relative">
+        <div className="mx-[40px] mt-[70px]">
           <div className="text-6xl font-extrabold leading-normal ">
             <p>getlinked Tech</p>
             <p>
@@ -33,9 +33,9 @@ function Middle() {
             Big prize
           </p>
         </div>
-        <div className="main-container">
-          <div className=" image-container relative flex">
-            <div className="">
+        <div className="main-container flex-shrink-1 justify-center">
+          <div className=" image-container relative   ">
+            <div className="hover:scale-[110%] ease-in-out duration-300">
               <Image
                 // width={1086}
                 // height={836}
@@ -43,7 +43,7 @@ function Middle() {
                 alt="Picture of the author"
               />
             </div>
-            <div className=" hover:animate-pulse absolute ">
+            <div className="animate-pulse absolute  ">
               <Image
                 // width={1086}
                 // height={836}
