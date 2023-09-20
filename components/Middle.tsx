@@ -33,21 +33,25 @@ function Middle() {
             Big prize
           </p>
         </div>
-        <div className="">
-          <Image
-            // width={1086}
-            // height={836}
-            src={MWSG}
-            alt="Picture of the author"
-          />
-        </div>
-        <div className="absolute right-0 hover:animate-pulse">
-          <Image
-            // width={1086}
-            // height={836}
-            src={GLOW}
-            alt="Picture of the author"
-          />
+        <div className="main-container">
+          <div className=" image-container relative flex">
+            <div className="">
+              <Image
+                // width={1086}
+                // height={836}
+                src={MWSG}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className=" hover:animate-pulse absolute ">
+              <Image
+                // width={1086}
+                // height={836}
+                src={GLOW}
+                alt="Picture of the author"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <Line />
