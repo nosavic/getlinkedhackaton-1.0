@@ -3,23 +3,41 @@ import Image from "next/image";
 import ELL from "../assets/Ellipse.png";
 import QMA from "../assets/qmark.png";
 import CAS from "../assets/casual.png";
+import Line2 from "../tools/Line2";
+import Questions from "../tools/Questions";
 
 function Middle5() {
   return (
-    <main className="mt-[150px] mx-[40px]">
+    <main className="mt-[150px] mx-[40px] mb-[60px]">
       <div className="justify-evenly flex  flex-wrap-reverse items-center     ">
         <div className=" phone:text-center max-w-[535px]">
           <p className="text-4xl font-extrabold custom:w-[300px]">
             Frequently Asked
             <b className="text-[#D434FE]"> Question</b>
           </p>
-          <div className="leading-[26px] h-[700px] mt-[40px]  ">
-            <p className="pb-[30px]">
-              <b className="text-[#D434FE]">Innovation and Creativity: </b>
-              Evaluate the uniqueness and creativity of the solution. Consider
-              whether it addresses a real-world problem in a novel way or
-              introduces innovative features.
+          <div className="leading-[26px]  mt-[40px] mb-[20px]  ">
+            <p className="">
+              We got answers to the questions that you might want to ask about
+              getlinked Hackathon 1.0
             </p>
+          </div>
+          <div className="">
+            <Questions
+              text={"Can I work on a project I started before the hackathon?"}
+            />
+            <Questions
+              text={"What happens if I need help during the hackathon?"}
+            />
+            <Questions
+              text={"What happens if I don't have an idea for a project?"}
+            />
+            <Questions
+              text={"Can I join a team or do I have to come with one?"}
+            />
+            <Questions text={"What happens after the hackathon ends"} />
+            <Questions
+              text={"Can I work on a project I started before the hackathon?"}
+            />
           </div>
         </div>
         <div className="relative items-center justify-center flex  max-w-[768px] mb-[30px] phone:mt-[100px] ">

@@ -25,6 +25,9 @@
   }
 }
 
+
+
+
 /* .mark:before {
   content: "";
   position: absolute;
@@ -88,6 +91,16 @@ body {
   width: 100%;
   height: 1px;
 }
+.line2 {
+  border: 1px solid rgba(212, 52, 254, 1);
+  width: 100%;
+  height: 1px;
+  margin-top: 7px;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
+}
+.line2:hover {
+  width: 105%;
+}
 
 .main-container {
   display: flex;
@@ -136,3 +149,88 @@ body {
   
 
 } */
+
+.space {
+  margin-bottom: 30px;
+}
+
+/* VERTICAL STEPPER BEGINGS */
+
+/* components/VerticalStepper.css */
+
+.vertical-stepper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.step {
+  display: flex;
+  align-items: end;
+  margin-bottom: 16px;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
+}
+
+/* .step:hover {
+  scale: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+} */
+
+.step-number {
+  width: 53px;
+  height: 53px;
+  /* border: 2px solid #333; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 86px;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+}
+
+.step-number:hover {
+  scale: 110%;
+}
+
+.step-label-right {
+  text-align: left;
+}
+.step-label-left {
+  text-align: right;
+}
+
+.step-label-left,
+.step-label-right {
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
+}
+
+.step-label-left:hover,
+.step-label-right:hover {
+  scale: 110%;
+}
+
+/* @media screen and (max-width: 900px) {
+  .step-label-left,
+  .step-label-right {
+    max-width: 200px;
+
+  }
+} */
+
+/* VERTICAL STEPPER ENDS */
+
+/* VERTICAL LINE START */
+.vertical-line {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 4px; /* Adjust the width of the line */
+  height: 86px; /* Adjust the height of the line */
+  background-color: rgba(212, 52, 254, 1);
+  border-radius: 4px;
+}
+
+/* VERTICAL LINE ENDS */
