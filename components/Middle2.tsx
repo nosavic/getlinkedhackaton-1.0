@@ -28,12 +28,12 @@ function Middle2() {
             </p>
             <p className="leading-10 ">
               Our tech hackathon is a melting pot of visionaries, and its
-              purpose is as clear as day: to shape the future. Whether you're a
-              coding genius, a design maverick, or a concept wizard, you'll have
-              the chance to transform your ideas into reality. Solving
-              real-world problems, pushing the boundaries of technology, and
-              creating solutions that can change the world, that's what we're
-              all about!
+              purpose is as clear as day: to shape the future. Whether
+              you&#39;re a coding genius, a design maverick, or a concept
+              wizard, you&#39;ll have the chance to transform your ideas into
+              reality. Solving real-world problems, pushing the boundaries of
+              technology, and creating solutions that can change the world,
+              that&#39;s what we&#39;re all about!
             </p>
           </div>
         </div>
