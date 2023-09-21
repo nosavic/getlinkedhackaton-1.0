@@ -11,7 +11,16 @@ export const metadata: Metadata = {
 export const clash = localFont({
   src: [
     {
-      path: "../../assets/fonts/ClashDisplay-Bold.otf",
+      path: "../../assets/fonts/clash/ClashDisplay-Bold.otf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+});
+export const mont = localFont({
+  src: [
+    {
+      path: "../../assets/fonts/montserrat/Montserrat-Regular.ttf",
       weight: "400",
       style: "normal",
     },
@@ -25,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={mont.className}>{children}</body>
     </html>
   );
 }

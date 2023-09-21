@@ -4,17 +4,14 @@ import PLF from "../assets/plf.png";
 import MWSG from "../assets/mwsg.png";
 import GLOW from "../assets/glow.png";
 import Line from "../tools/Line";
+import Flare from "../tools/Flare";
 
 function Middle() {
   return (
     <div className="overflow-hidden">
-      <div className="absolute top-[-100px] left-[-300px] flare mh">
-        <Image
-          width={1086}
-          height={836}
-          src={PLF}
-          alt="Picture of the author"
-        />
+      <div>
+        <Flare w={1086} h={836} plf={PLF} />
+        <Flare w={1086} h={836} plf={PLF} />
       </div>
 
       <div className="flex justify-end text-right mt-[50px] mr-[20px] font-extrabold text-3xl italic">
