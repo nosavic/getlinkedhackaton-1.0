@@ -16,12 +16,21 @@ function Step(prop: any) {
             <div className="flex justify-center">
               <VerticalLine />
             </div>
-            <div className="step-number    ">{prop.num}</div>
+            <div className="step-number">{prop.num}</div>
           </div>
           <div className="step-label-right w-[50%] pl-[30px] phone:scale-[90%] phone:w-fit">
+            <p className="text-[20px] phone:block tablet:block hidden font-bold text-[#D434FE] mb-[10px]">
+              {prop.top}
+            </p>
+            <p className=" font-[400px] phone:block tablet:block hidden text-[14px]">
+              {prop.leftt}
+            </p>
             <p className="text-[20px] font-bold text-[#D434FE]">{prop.right}</p>
             <p className="max-w-[400px] font-[400px] text-[14px] ">
               {prop.rightt}
+            </p>
+            <p className="phone:block tablet:block hidden text-[20px] font-bold text-[#D434FE] ">
+              {prop.date}
             </p>
           </div>
         </div>
