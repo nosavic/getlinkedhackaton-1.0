@@ -184,7 +184,7 @@ body {
   align-items: center;
   font-weight: bold;
   font-size: 16px;
-  margin: 0 86px;
+  /* margin: 0 86px; */
   transition: cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
   background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
 }
@@ -209,6 +209,12 @@ body {
 .step-label-right:hover {
   scale: 110%;
 }
+
+.off-left {
+  display: none;
+}
+
+
 
 /* @media screen and (max-width: 900px) {
   .step-label-left,

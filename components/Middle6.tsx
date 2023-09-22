@@ -9,7 +9,7 @@ import VerticalStepper from "../tools/VerticalStepper";
 
 function Middle5() {
   return (
-    <main className="mt-[150px] mx-[40px] mb-[60px] justify-evenly flex-col">
+    <main className="mt-[150px] mx-[40px] mb-[60px] justify-evenly  flex-col">
       <div className="text-center mb-[91px]">
         <p className="font-[700px] text-[32px]">Timeline</p>
         <p>
