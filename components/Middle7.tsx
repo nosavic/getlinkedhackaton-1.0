@@ -9,13 +9,16 @@ import SECOND from "../assets/second.png";
 import THIRD from "../assets/third.png";
 import Line2 from "../tools/Line2";
 import Questions from "../tools/Questions";
+import { clash } from "@/app/layout";
 
 function Middle5() {
   return (
     <main className="mt-[150px] mx-[40px] mb-[60px]">
       <div className="tablet:text-center phone:text-center flex justify-end tablet:justify-center phone:justify-center mb-[40px]  ">
         <div>
-          <p className="text-[35px] font-bold  ">
+          <p
+            className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+          >
             Prizes <b className="text-[#D434FE]"> and Rewards</b>{" "}
           </p>
           <p>

@@ -25,7 +25,7 @@ function Middle() {
         Igniting a Revolution in HR Innovation
       </div>
       <div className="flex flex-wrap justify-evenly relative">
-        <div className="mx-[40px] mt-[70px] flex flex-col gap-[20px]">
+        <div className="mx-[40px] mt-[70px] flex flex-col gap-[30px]">
           <div
             className={` ${clash.className} text-6xl phone:text-4xl font-extrabold leading-normal `}
           >
@@ -57,7 +57,7 @@ function Middle() {
             Big prize
           </p>
           <Button name={"Register"} />
-          <div>
+          <div className="mb-[60px]">
             <Image
               // width={1086}
               // height={836}

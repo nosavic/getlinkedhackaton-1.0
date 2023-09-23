@@ -4,14 +4,16 @@ import SIT from "../assets/sit.png";
 import ELL from "../assets/Ellipse.png";
 import Line from "../tools/Line";
 import Flare from "../tools/Flare";
-
+import { clash } from "@/app/layout";
 function Middle3() {
   return (
     <main>
       <div className="mt-[50px] mx-[40px]">
         <div className="justify-evenly flex  flex-wrap-reverse items-center     ">
           <div className=" phone:text-center max-w-[535px]">
-            <p className="text-4xl font-extrabold custom:w-[200px]">
+            <p
+              className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+            >
               Rules and
               <b className="text-[#D434FE]"> Guidelines</b>
             </p>

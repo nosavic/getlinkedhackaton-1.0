@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import TBI from "../assets/tbi.png";
 import Line from "../tools/Line";
+import { clash } from "@/app/layout";
 
 function Middle2() {
   return (
@@ -22,7 +23,9 @@ function Middle2() {
             </div>
           </div>
           <div className=" phone:text-center max-w-[535px]">
-            <p className="text-4xl font-extrabold">
+            <p
+              className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+            >
               Introduction to getlinked{" "}
               <b className="text-[#D434FE]">tech Hackathon 1.0</b>
             </p>

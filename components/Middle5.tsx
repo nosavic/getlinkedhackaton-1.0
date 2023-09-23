@@ -5,13 +5,16 @@ import QMA from "../assets/qmark.png";
 import CAS from "../assets/casual.png";
 import Line2 from "../tools/Line2";
 import Questions from "../tools/Questions";
+import { clash } from "@/app/layout";
 
 function Middle5() {
   return (
     <main className="mt-[150px] mx-[40px] mb-[60px]">
       <div className="justify-evenly flex  flex-wrap-reverse items-center     ">
         <div className=" phone:text-center max-w-[535px]">
-          <p className="text-4xl font-extrabold custom:w-[300px]">
+          <p
+            className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+          >
             Frequently Asked
             <b className="text-[#D434FE]"> Question</b>
           </p>

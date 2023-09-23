@@ -12,13 +12,18 @@ import Questions from "../tools/Questions";
 import VerticalLine from "../tools/VerticalLine";
 import VerticalLine2 from "../tools/VerticalLine2";
 import HoriLine from "../tools/HoriLine";
+import { clash } from "@/app/layout";
 
 function Middle5() {
   return (
     <main className="mt-[150px] mx-[40px] mb-[60px]">
       <div className="text-center  mb-[40px]  ">
         <div>
-          <p className="text-[35px] font-bold  ">Partners and Sponsors</p>
+          <p
+            className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+          >
+            Partners and Sponsors
+          </p>
           <p>
             Getlinked Hackathon 1.0 is honored to have the following major
             companies as its partners and sponsors

@@ -1,11 +1,14 @@
 import React from "react";
+import { clash } from "@/app/layout";
 
 function Middle10() {
   return (
     <main>
       <div className="flex flex-wrap justify-evenly phone:flex-col tablet:flex-col mx-[70px]  phone:gap-[30px] tablet:gap-[30px] mb-[30px]">
         <div className="flex flex-col max-w-[400px]">
-          <p className="text-3xl font-extrabold mb-[20px]">
+          <p
+            className={`text-3xl font-extrabold leading-normal ${clash.className}`}
+          >
             get<b className="text-[#D434FE]">linked</b>
           </p>
           <p className="leading-normal">

@@ -6,12 +6,17 @@ import CAS from "../assets/casual.png";
 import Line2 from "../tools/Line2";
 import Questions from "../tools/Questions";
 import VerticalStepper from "../tools/VerticalStepper";
+import { clash } from "@/app/layout";
 
 function Middle5() {
   return (
     <main className="mt-[150px] mx-[40px] mb-[60px] justify-evenly  flex-col">
       <div className="text-center mb-[91px]">
-        <p className="font-[700px] text-[32px]">Timeline</p>
+        <p
+          className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+        >
+          Timeline
+        </p>
         <p>
           Here is the breakdown of the time we anticipate using for the upcoming
           event.

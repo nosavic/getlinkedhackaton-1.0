@@ -6,6 +6,7 @@ import PEO from "../assets/people.png";
 import Line from "../tools/Line";
 import Button from "../tools/Button";
 import Flare from "../tools/Flare";
+import { clash } from "@/app/layout";
 
 function Middle4() {
   return (
@@ -33,7 +34,9 @@ function Middle4() {
             </div>
           </div>
           <div className=" phone:text-center max-w-[535px]">
-            <p className="text-4xl font-extrabold custom:w-[300px]">
+            <p
+              className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+            >
               Judging Criteria
               <b className="text-[#D434FE]"> Key attributes</b>
             </p>
