@@ -26,7 +26,7 @@ export default function Home() {
         >
           <Sidebar />
         </div>
-        <div className=" top-[0px]">
+        <div className=" bg-slate-700 bg-opacity-[10%] top-[0px]">
           <Navbar setOpenNav={setOpenNav} />
         </div>
       </div>

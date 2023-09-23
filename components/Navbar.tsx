@@ -7,10 +7,9 @@ import { clash, mont } from "@/app/layout";
 type Props = {
   setOpenNav: Dispatch<SetStateAction<boolean>>;
 };
-function Navbar({setOpenNav}:Props) {
-
+function Navbar({ setOpenNav }: Props) {
   return (
-    <div className="bg-slate-700 bg-opacity-[10%] backdrop-blur-[5px]">
+    <div className="">
       <div className="flex pt-[30px] mb-[30px] px-[20px] items-center justify-between   ">
         <div className=" text-[36px] font-extrabold">
           <p className={clash.className}>
