@@ -4,13 +4,13 @@ import PLF from "../assets/plf.png";
 import MWSG from "../assets/mwsg.png";
 import GLOW from "../assets/glow.png";
 import Line from "../tools/Line";
-import Flare from "../assets/svg/Flare";
+import Flare from "../tools/Flare";
 
 function Middle() {
   return (
     <div className="overflow-hidden">
-      <div className="absolute top-[20px] right-[700px]">
-        <div>
+      <div className="">
+        <div className=" absolute ml-[-500px] mt-[-300px] -z-10">
           <Flare />
         </div>
       </div>

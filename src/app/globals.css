@@ -214,8 +214,6 @@ body {
   display: none;
 }
 
-
-
 /* @media screen and (max-width: 900px) {
   .step-label-left,
   .step-label-right {
@@ -235,7 +233,36 @@ body {
   background-color: rgba(212, 52, 254, 1);
   border-radius: 4px;
 }
+.vertical-line2 {
+  margin-top: 5px;
+  width: 4px; /* Adjust the width of the line */
+  height: 86px; /* Adjust the height of the line */
+  background-color: rgba(212, 52, 254, 1);
+  border-radius: 4px;
+}
+.Hori-line {
+  margin-top: 5px;
+  width:max-content;
+  min-width: 250px; /* Adjust the width of the line */
+  max-width: 250px; /* Adjust the width of the line */
+  height: 4px; /* Adjust the height of the line */
+  background-color: rgba(212, 52, 254, 1);
+  border-radius: 4px;
+}
 
 /* VERTICAL LINE ENDS */
+
+.board {
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(255, 255, 255, 0.01);
+  padding: 144px;
+}
+.board2 {
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(255, 255, 255, 0.01);
+  padding: 54px;
+}
 
 

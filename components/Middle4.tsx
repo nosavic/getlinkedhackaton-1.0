@@ -5,6 +5,7 @@ import ELL from "../assets/Ellipse.png";
 import PEO from "../assets/people.png";
 import Line from "../tools/Line";
 import Button from "../tools/Button";
+import Flare from "../tools/Flare";
 
 function Middle4() {
   return (

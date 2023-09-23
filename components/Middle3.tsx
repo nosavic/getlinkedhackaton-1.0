@@ -3,6 +3,7 @@ import Image from "next/image";
 import SIT from "../assets/sit.png";
 import ELL from "../assets/Ellipse.png";
 import Line from "../tools/Line";
+import Flare from "../tools/Flare";
 
 function Middle3() {
   return (

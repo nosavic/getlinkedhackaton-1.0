@@ -35,13 +35,13 @@ function Middle5() {
           </div>
         </div>
         <div className="flex  ">
-          <div className="hover:scale-[110%] hover:-translate-y-[40px] ease-in-out duration-300 ">
+          <div className="hover:scale-[105%] hover:-translate-y-[40px] ease-in-out duration-300 ">
             <Image src={SECOND} alt="Picture of the author" />
           </div>
           <div className="hover:scale-[110%]    hover:-translate-y-[40px] ease-in-out duration-300 ">
             <Image src={FIRST} alt="Picture of the author" />
           </div>
-          <div className="hover:scale-[115%] hover:-translate-y-[40px] ease-in-out duration-300 ">
+          <div className="hover:scale-[105%] hover:-translate-y-[40px] ease-in-out duration-300 ">
             <Image src={THIRD} alt="Picture of the author" />
           </div>
         </div>
