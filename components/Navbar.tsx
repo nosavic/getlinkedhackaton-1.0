@@ -7,7 +7,7 @@ import { clash , mont } from "@/app/layout";
 function Navbar() {
   return (
     <div>
-      <div className="flex mt-[30px] mb-[30px] px-[20px] items-center justify-between">
+      <div className="flex mt-[30px] mb-[30px] px-[20px] items-center justify-between  ">
         <div className=" text-[36px] font-extrabold">
           <p className={clash.className}>
             get<b className="text-[#D434FE]">linked</b>

@@ -4,7 +4,7 @@ import { Sling as Hamburger } from "hamburger-react";
 
 function Menu() {
   return (
-    <div>
+    <div >
       <Hamburger duration={0.3} color="currentColor" size={32} />
     </div>
   );

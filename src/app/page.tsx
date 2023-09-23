@@ -10,21 +10,29 @@ import Middle7 from "../../components/Middle7";
 import Middle8 from "../../components/Middle8";
 import Middle9 from "../../components/Middle9";
 import Middle10 from "../../components/Middle10";
+import Sidebar from "../../tools/Sidebar";
 
 export default function Home() {
+
+
   return (
-    <main className="flex w-[100%]  flex-col">
-      <Navbar />
-      <Middle1 />
-      <Middle2 />
-      <Middle3 />
-      <Middle4 />
-      <Middle5 />
-      <Middle6 />
-      <Middle7 />
-      <Middle8 />
-      <Middle9 />
-      <Middle10 />
+    <main className="flex w-[100%]   flex-col">
+      <div className="sticky top-0">
+        <Sidebar />
+        <Navbar />
+      </div>
+      <div className="-z-10">
+        <Middle1 />
+        <Middle2 />
+        <Middle3 />
+        <Middle4 />
+        <Middle5 />
+        <Middle6 />
+        <Middle7 />
+        <Middle8 />
+        <Middle9 />
+        <Middle10 />
+      </div>
     </main>
   );
 }
