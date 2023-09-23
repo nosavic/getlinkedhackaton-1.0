@@ -15,27 +15,21 @@ import Sidebar from "../../tools/Sidebar";
 import { useState } from "react";
 
 export default function Home() {
-  const [click, setClick] = useState(false);
+  const [openNav, setOpenNav] = useState(false);
 
-  function theClick() {
-    setClick((before) => {
-      return !before;
-    });
-    console.log(click);
-  }
 
   return (
     <div className="flex relative  flex-col">
       <div className="sticky top-[0px] bg-slate-400 bg-opacity-[5%]">
         <div
           className={` tablet:block phone:block hidden absolute   top-[${
-            !click ? "-500" : "0"
+            !openNav ? "-500" : "0"
           }px] right-0 `}
         >
-          <Sidebar click={click} theClick={theClick} />
+          <Sidebar />
         </div>
         <div className=" top-[0px]">
-          <Navbar theClick={theClick} />
+          <Navbar setOpenNav={setOpenNav} />
         </div>
       </div>
       <div className="-z-10">

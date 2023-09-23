@@ -1,14 +1,13 @@
-import React from "react";
+import React, { Dispatch, SetStateAction } from "react";
 import Line from "../tools/Line";
 import Menu from "../tools/Menu";
 import Button from "../tools/Button";
 import { clash, mont } from "@/app/layout";
 
-function Navbar(prop: any) {
-  function theClick2() {
-    prop.theClick();
-  }
-
+type Props = {
+  setOpenNav: Dispatch<SetStateAction<boolean>>;
+};
+function Navbar({ setOpenNav }: Props) {
   return (
     <div>
       <div className="flex mt-[30px] mb-[30px] px-[20px] items-center justify-between  ">
@@ -28,7 +27,7 @@ function Navbar(prop: any) {
           {/* <div className="rbutton">Register</div> */}
         </div>
         <div className="hamburger">
-          <Menu theClick2={theClick2} />
+          <Menu setOpenNav={setOpenNav} />
         </div>
       </div>
       <Line />

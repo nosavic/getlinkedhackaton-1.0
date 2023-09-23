@@ -1,16 +1,15 @@
 "use client";
-import React from "react";
+import React, { Dispatch, SetStateAction } from "react";
 import { Sling as Hamburger } from "hamburger-react";
 
-function Menu(prop: any) {
-  function theClick3() {
-    prop.theClick2();
-  }
-
+type Props = {
+  setOpenNav: Dispatch<SetStateAction<boolean>>;
+};
+function Menu({ setOpenNav }: Props) {
   return (
     <div>
       <Hamburger
-        onToggle={theClick3}
+        onToggle={() => setOpenNav((prev) => !prev)}
         duration={0.3}
         color="currentColor"
         size={32}

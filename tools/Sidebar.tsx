@@ -1,15 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-function Sidebar(prop: any) {
-  function theClick() {
-    prop.theClick();
-  }
-
-  function whenClicked() {
-    theClick;
-    console.log("yes");
-  }
+function Sidebar() {
 
   return (
     <div
