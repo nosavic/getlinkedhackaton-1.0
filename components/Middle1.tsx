@@ -30,23 +30,25 @@ function Middle() {
             className={` ${clash.className} text-[86px] font-extrabold leading-normal `}
           >
             <p>getlinked Tech</p>
-            <p className="flex phone:flex-col items-center phone:items-start">
+            <p className="flex  items-center ">
               Hackaton <b className="text-[#D434FE] pl-[5px]"> 1.0</b>
-              <div className="">
-                <Image
-                  // width={10}
-                  // height={10}
-                  src={chain}
-                  alt="Picture of the author"
-                />
-              </div>
-              <div>
-                <Image
-                  // width={10}
-                  // height={10}
-                  src={spark}
-                  alt="Picture of the author"
-                />
+              <div className="flex phone:hidden">
+                <div className="">
+                  <Image
+                    // width={10}
+                    // height={10}
+                    src={chain}
+                    alt="Picture of the author"
+                  />
+                </div>
+                <div>
+                  <Image
+                    // width={10}
+                    // height={10}
+                    src={spark}
+                    alt="Picture of the author"
+                  />
+                </div>
               </div>
             </p>
           </div>
