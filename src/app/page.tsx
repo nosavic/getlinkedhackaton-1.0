@@ -8,6 +8,8 @@ import Middle5 from "../../components/Middle5";
 import Middle6 from "../../components/Middle6";
 import Middle7 from "../../components/Middle7";
 import Middle8 from "../../components/Middle8";
+import Middle9 from "../../components/Middle9";
+import Middle10 from "../../components/Middle10";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
         <Middle6 />
         <Middle7 />
         <Middle8 />
+        <Middle9 />
+        <Middle10 />
       </main>
     </div>
   );
