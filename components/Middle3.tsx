@@ -8,11 +8,11 @@ import { clash } from "@/app/layout";
 function Middle3() {
   return (
     <main>
-      <div className="mt-[50px] mx-[40px]">
+      <div className="mt-[50px] mb-[50px] mx-[40px]">
         <div className="justify-evenly flex  flex-wrap-reverse items-center     ">
           <div className=" phone:text-center max-w-[535px]">
             <p
-              className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+              className={`text-4xl font-extrabold leading-normal phone:mb-[20px] ${clash.className}`}
             >
               Rules and
               <b className="text-[#D434FE]"> Guidelines</b>

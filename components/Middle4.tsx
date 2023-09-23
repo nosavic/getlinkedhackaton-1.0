@@ -78,7 +78,7 @@ function Middle4() {
           </div>
         </div>
       </div>
-      <div className="mt-[40px]">
+      <div className="mt-[50px]">
         <Line />
       </div>
     </main>

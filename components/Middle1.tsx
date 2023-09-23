@@ -30,7 +30,7 @@ function Middle() {
             className={` ${clash.className} text-6xl phone:text-4xl font-extrabold leading-normal `}
           >
             <p>getlinked Tech</p>
-            <p className="flex  items-center ">
+            <div className="flex  items-center ">
               Hackaton <b className="text-[#D434FE] "> 1.0</b>
               <div className="flex phone:hidden">
                 <div className="">
@@ -50,7 +50,7 @@ function Middle() {
                   />
                 </div>
               </div>
-            </p>
+            </div>
           </div>
           <p className="max-w-[400px]">
             Participate in getlinked tech Hackathon 2023 stand a chance to win a

@@ -24,7 +24,7 @@ function Middle2() {
           </div>
           <div className=" phone:text-center max-w-[535px]">
             <p
-              className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+              className={`text-4xl font-extrabold leading-normal phone:mb-[20px] ${clash.className}`}
             >
               Introduction to getlinked{" "}
               <b className="text-[#D434FE]">tech Hackathon 1.0</b>

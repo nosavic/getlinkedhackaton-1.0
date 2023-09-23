@@ -13,20 +13,18 @@ import Middle10 from "../../components/Middle10";
 
 export default function Home() {
   return (
-    <div>
-      <main className="flex w-[100%]  flex-col">
-        <Navbar />
-        <Middle1 />
-        <Middle2 />
-        <Middle3 />
-        <Middle4 />
-        <Middle5 />
-        <Middle6 />
-        <Middle7 />
-        <Middle8 />
-        <Middle9 />
-        <Middle10 />
-      </main>
-    </div>
+    <main className="flex w-[100%]  flex-col">
+      <Navbar />
+      <Middle1 />
+      <Middle2 />
+      <Middle3 />
+      <Middle4 />
+      <Middle5 />
+      <Middle6 />
+      <Middle7 />
+      <Middle8 />
+      <Middle9 />
+      <Middle10 />
+    </main>
   );
 }

@@ -7,22 +7,26 @@ import Line2 from "../tools/Line2";
 import Questions from "../tools/Questions";
 import VerticalStepper from "../tools/VerticalStepper";
 import { clash } from "@/app/layout";
+import Line from "../tools/Line";
 
 function Middle5() {
   return (
-    <main className="mt-[150px] mx-[40px] mb-[60px] justify-evenly  flex-col">
-      <div className="text-center mb-[91px]">
-        <p
-          className={`text-4xl font-extrabold leading-normal ${clash.className}`}
-        >
-          Timeline
-        </p>
-        <p>
-          Here is the breakdown of the time we anticipate using for the upcoming
-          event.
-        </p>
+    <main>
+      <div className="mt-[50px] mx-[40px] mb-[60px] justify-evenly  flex-col">
+        <div className="text-center mb-[50px] ">
+          <p
+            className={`text-4xl font-extrabold leading-normal ${clash.className}`}
+          >
+            Timeline
+          </p>
+          <p>
+            Here is the breakdown of the time we anticipate using for the
+            upcoming event.
+          </p>
+        </div>
+        <VerticalStepper />
       </div>
-      <VerticalStepper />
+      <Line />
     </main>
   );
 }
