@@ -175,8 +175,8 @@ body {
 } */
 
 .step-number {
-  width: 53px;
-  height: 53px;
+  width: 32px;
+  height: 32px;
   /* border: 2px solid #333; */
   border-radius: 50%;
   display: flex;

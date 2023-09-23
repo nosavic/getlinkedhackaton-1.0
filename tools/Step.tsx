@@ -10,7 +10,7 @@ function Step(prop: any) {
             <p className="text-[20px]  font-bold text-[#D434FE] mb-[10px]">
               {prop.left}
             </p>
-            <p className=" font-[400px] text-[14px]">{prop.leftt}</p>
+            <p className="  font-[400px] text-[14px]">{prop.leftt}</p>
           </div>
           <div className="flex-col ">
             <div className="flex justify-center">
