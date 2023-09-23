@@ -23,7 +23,7 @@ function Middle5() {
               it’s our aim to always take of our participant
             </p>
           </div>
-          <div className=" py-[40px] px-[30px] h-[608px] bg-zinc-300 bg-opacity-5 rounded-[5px] border border-fuchsia-500">
+          <div className=" pt-[40px] pb-[100px] px-[30px]  rounded-[10px] border border-fuchsia-500">
             <p>
               At getlinked tech Hackathon 1.0, we value your privacy and are
               committed to protecting your personal information. This Privacy
@@ -33,7 +33,7 @@ function Middle5() {
               in this policy.
             </p>
             <div className="  mt-[30px]">
-              <p className="text-[#D434FE] text-2xl font-extrabold">
+              <p className="text-[#D434FE] text-2xl font-extrabold pb-[10px]">
                 Licensing Policy
               </p>
               <p>Here are terms of our Standard License:</p>
