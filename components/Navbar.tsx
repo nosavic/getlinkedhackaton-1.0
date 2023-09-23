@@ -2,9 +2,13 @@ import React from "react";
 import Line from "../tools/Line";
 import Menu from "../tools/Menu";
 import Button from "../tools/Button";
-import { clash , mont } from "@/app/layout";
+import { clash, mont } from "@/app/layout";
 
-function Navbar() {
+function Navbar(prop: any) {
+  function theClick2() {
+    prop.theClick();
+  }
+
   return (
     <div>
       <div className="flex mt-[30px] mb-[30px] px-[20px] items-center justify-between  ">
@@ -24,7 +28,7 @@ function Navbar() {
           {/* <div className="rbutton">Register</div> */}
         </div>
         <div className="hamburger">
-          <Menu />
+          <Menu theClick2={theClick2} />
         </div>
       </div>
       <Line />
