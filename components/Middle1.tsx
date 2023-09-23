@@ -1,10 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import PLF from "../assets/plf.png";
+import zero from "../assets/zero.png";
 import MWSG from "../assets/mwsg.png";
 import GLOW from "../assets/glow.png";
+import spark from "../assets/spark.png";
+import chain from "../assets/chain.png";
 import Line from "../tools/Line";
 import Flare from "../tools/Flare";
+import { clash, mont } from "@/app/layout";
+import Button from "../tools/Button";
 
 function Middle() {
   return (
@@ -15,21 +19,50 @@ function Middle() {
         </div>
       </div>
 
-      <div className="flex justify-end text-right mt-[50px] mr-[20px] font-extrabold text-3xl italic">
+      <div
+        className={`flex justify-end text-right mt-[50px] mr-[20px] font-extrabold text-3xl italic ${mont.className} `}
+      >
         Igniting a Revolution in HR Innovation
       </div>
       <div className="flex flex-wrap justify-evenly relative">
-        <div className="mx-[40px] mt-[70px]">
-          <div className="text-6xl font-extrabold leading-normal ">
+        <div className="mx-[40px] mt-[70px] flex flex-col gap-[20px]">
+          <div
+            className={` ${clash.className} text-6xl font-extrabold leading-normal `}
+          >
             <p>getlinked Tech</p>
-            <p>
-              Hackaton <b className="text-[#D434FE]">1.0</b>
+            <p className="flex">
+              Hackaton <b className="text-[#D434FE] pl-[5px]"> 1.0</b>
+              <div className="">
+                <Image
+                  // width={10}
+                  // height={10}
+                  src={chain}
+                  alt="Picture of the author"
+                />
+              </div>
+              <div>
+                <Image
+                  // width={10}
+                  // height={10}
+                  src={spark}
+                  alt="Picture of the author"
+                />
+              </div>
             </p>
           </div>
           <p className="max-w-[400px]">
             Participate in getlinked tech Hackathon 2023 stand a chance to win a
             Big prize
           </p>
+          <Button name={"Register"} />
+          <div>
+            <Image
+              // width={1086}
+              // height={836}
+              src={zero}
+              alt="Picture of the author"
+            />
+          </div>
         </div>
         <div className="main-container flex-shrink-1 justify-center">
           <div className=" image-container relative   ">
