@@ -27,10 +27,10 @@ function Middle() {
       <div className="flex flex-wrap justify-evenly relative">
         <div className="mx-[40px] mt-[70px] flex flex-col gap-[20px]">
           <div
-            className={` ${clash.className} text-6xl font-extrabold leading-normal `}
+            className={` ${clash.className} text-[86px] font-extrabold leading-normal `}
           >
             <p>getlinked Tech</p>
-            <p className="flex">
+            <p className="flex phone:flex-col items-center phone:items-start">
               Hackaton <b className="text-[#D434FE] pl-[5px]"> 1.0</b>
               <div className="">
                 <Image
