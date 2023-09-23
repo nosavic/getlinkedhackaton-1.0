@@ -45,7 +45,7 @@ function Middle5() {
               />
             </div>
           </div>
-          <div className="relative items-center justify-center flex  max-w-[768px] mb-[30px] phone:mt-[100px] ">
+          <div className="relative items-center justify-center flex  max-w-[768px] mb-[30px]  ">
             <div className="hover:scale-[110%] ease-in-out duration-300 ">
               <Image
                 width={600}
