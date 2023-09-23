@@ -19,10 +19,10 @@ export default function Home() {
 
   return (
     <div className="flex relative  flex-col">
-      <div className="sticky top-[0px] bg-slate-400 bg-opacity-[5%]">
+      <div className="sticky top-[0px]">
         <div
           style={{ top: !openNav ? -500 : 0, right: 0, position: "absolute" }}
-          className={` tablet:block phone:block hidden `}
+          className={` tablet:block phone:block hidden absolute right-0 `}
         >
           <Sidebar />
         </div>
