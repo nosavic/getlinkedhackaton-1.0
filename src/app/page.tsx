@@ -18,11 +18,11 @@ export default function Home() {
   const [openNav, setOpenNav] = useState(false);
 
   return (
-    <div className="flex relative  flex-col">
-      <div className="sticky top-[0px]">
+    <div className="flex relative  top-[0px] flex-col">
+      <div className="sticky backdrop-blur-[5px] bg-slate-700 bg-opacity-[10%] top-[0px]">
         <div
           style={{ top: !openNav ? -500 : 0, right: 0, position: "absolute" }}
-          className={` tablet:block phone:block hidden absolute right-0 `}
+          className={`  phone:block hidden absolute right-0 `}
         >
           <Sidebar />
         </div>

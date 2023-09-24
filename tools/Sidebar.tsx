@@ -5,7 +5,7 @@ function Sidebar() {
 
   return (
     <div
-      className={`flex flex-col gap-[20px] bg-[#150E28] max-w-fit  px-[30px] py-[50px] `}
+      className={`flex flex-col rounded-[10px] gap-[20px] bg-[#150E28] max-w-fit  px-[30px] py-[50px] `}
     >
       <p>Timeline</p>
       <p>Overview</p>
