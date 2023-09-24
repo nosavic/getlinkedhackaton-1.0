@@ -229,7 +229,7 @@ body {
   margin-top: 5px;
   margin-bottom: 30px;
   width: 4px; /* Adjust the width of the line */
-  height: 86px; /* Adjust the height of the line */
+  height:  110px; 
   background-color: rgba(212, 52, 254, 1);
   border-radius: 4px;
 }
