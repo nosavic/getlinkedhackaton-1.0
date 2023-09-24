@@ -18,7 +18,7 @@ function Step(prop: any) {
             </div>
             <div className="step-number">{prop.num}</div>
           </div>
-          <div className="step-label-right w-[50%] pl-[30px] phone:scale-[90%] phone:w-fit">
+          <div className="step-label-right w-[50%] pl-[30px] phone:scale-[80%] phone:w-fit">
             <p className="text-[20px] phone:block tablet:block hidden font-bold text-[#D434FE] mb-[10px]">
               {prop.top}
             </p>
